@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: #FFDA76;
+    height: 766px;
+    position: relative;
+}
+.display-4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.text1 > h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #333;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic1{
+    position: absolute;
+    top: -40px;
+    left: -30px;
+
+}
+.pic2{
+    position: absolute;
+    top: 500px;
+    right: 200px;
+
+}
+.pic3{
+    position: absolute;
+    top: 700px;
+    left: 300px;
+
+}
+.pic4{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+
+}
+.picture{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-bottom: 10px;
+
+}
+.greetings{
+    color: #E85C0D;
+    font-size: 50px;
+    font-weight: 400;
+}
+.info{
+    font-size: 20px;
+    font-style: none;
+    font-weight: 100;
+    color: #929292;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills > div {
+    display: block;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin: 1rem 0;
+    color: #E85C0D;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+.sub-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    color: #E85C0D;
+    margin-block-start: 3rem;
+    margin-block-end: 3rem;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+p{
+    display: block;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
